@@ -42,13 +42,19 @@ It doesn't care what language you write in. It figures out the stack from the re
 
 ## Install
 
-It's a [Claude Code](https://docs.claude.com/en/docs/claude-code) skill, so it just needs to live in your skills directory:
+### Via the `skills` CLI (recommended)
+
+```bash
+npx skills add guilbill/sensei
+```
+
+This reads the repo's `SKILL.md`, detects your agent, and installs sensei into the right path.
+
+### Manually
 
 ```bash
 git clone git@github.com:guilbill/sensei.git ~/.claude/skills/sensei
 ```
-
-Claude Code picks it up on its own. Restart the session if one's already open.
 
 ## Using it
 
