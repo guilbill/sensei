@@ -9,6 +9,7 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-skill-7C3AED)](https://docs.claude.com/en/docs/claude-code)
 [![Language agnostic](https://img.shields.io/badge/language-agnostic-2ea44f)](#)
 [![Git required](https://img.shields.io/badge/requires-git-F05032)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE)
 
 </div>
 
@@ -29,6 +30,7 @@ It doesn't care what language you write in. It figures out the stack from the re
 - [How it remembers](#how-it-remembers)
 - [Layout](#layout)
 - [Hacking on it](#hacking-on-it)
+- [License](#license)
 
 ## What it does
 
@@ -92,3 +94,7 @@ sensei/
 ## Hacking on it
 
 All the behaviour is in [`SKILL.md`](./SKILL.md), change it there and run `/sensei` in any repo to see the difference. Two things worth keeping if you do: don't assume a stack (let it discover one), and don't let it teach anything it hasn't verified in the code.
+
+## License
+
+[MIT](./LICENSE)
