@@ -23,9 +23,9 @@
 
 ---
 
-The more I let Claude write code, the more I wory about losing my skills and project understanding. I plan, implement, review, ship, and repeat, but with the volume of code I see, I can't keep it all in my head. I need a way to stay sharp, and to make sure I'm not just following the flow of the repo without understanding it.
+The more I let Claude write code, the more I worry about losing my skills and project understanding. I plan, implement, review, ship, and repeat, but with the volume of code I see, I can't keep it all in my head. I need a way to stay sharp, and to make sure I'm not just following the flow of the repo without understanding it.
 
-Sensei is my answer to that. It reads the repo you're in, recent commits, docs, ADRs, whatever the project uses, and then turns it around on you: it asks the questions instead of answering them. I you get something wrong, it explains it (pointing at the real file), and remembers to ask you again next time if you don't remember (flashcard's style).
+Sensei is my answer to that. It reads the repo you're in, recent commits, docs, ADRs, whatever the project uses, and then turns it around on you: it asks the questions instead of answering them. If you get something wrong, it explains it (pointing at the real file), and remembers to ask you again next time if you don't remember (flashcard's style).
 
 It doesn't care what language you write in. It figures out the stack from the repo itself, so it behaves the same in a Go service as in a React monorepo.
 
@@ -43,7 +43,7 @@ It doesn't care what language you write in. It figures out the stack from the re
 
 - **Asks, doesn't tell.** Every question and correction comes from files and commits it read this session, not from what a "typical" project usually looks like. If it can't find it in the code, it won't claim it.
 - **Tracks the git history.** It knows what changed since you last sat down with it, and tends to quiz the *why* behind those changes.
-- **Remembers your weak spots.** Use a flashcards like system.
+- **Remembers your weak spots.** Uses a flashcard-like system.
 - **Trusts code over docs.** An ADR marked `proposed` that never got built won't be taught as fact, it checks the status and verifies against the actual code.
 - **Stays out of your repo.** Your progress lives outside the project, so nothing leaks into the codebase.
 
