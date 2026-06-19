@@ -2,16 +2,7 @@
 
 # 🥋 Sensei
 
-```
-        ,___,
-       (o   o)
-       /\_-_/\        The code is ground truth.
-      (  \_/  )       Stay sharp.
-     __\     /__
-    (   |   |   )
-        | 道 |
-        |___|
-```
+*The code is ground truth. Stay sharp.*
 
 **A Claude Code skill that quizzes you on the codebase you're working in.**
 
